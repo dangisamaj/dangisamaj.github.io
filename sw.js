@@ -1,6 +1,6 @@
 // Offline support: keeps the app's own files on the phone so the
 // registration form opens even without internet. Data is never cached.
-const CACHE = 'dangi-v4';
+const CACHE = 'dangi-v5';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icon.svg'];
 
 self.addEventListener('install', e => {
